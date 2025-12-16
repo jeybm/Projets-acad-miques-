@@ -1,0 +1,248 @@
+nav {
+    background-color: #502c73;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 auto;
+    display: flex;
+    align-items: center;
+    border-radius: 10pt;
+}
+nav>h1>a{
+    text-decoration: none;color: white;
+}
+nav>h1{
+    width:20% ;
+    margin-left: 10px;
+    color: white;
+}
+nav>ul{
+    width: 75%;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+nav>ul>li{
+    text-align: center;
+    background-color: #9676b7;
+    display: inline-block;
+    border-radius: 10pt;
+    border: 0.2ex solid grey;
+    width: 20%;
+    margin-left: 1em;
+    
+}
+nav>ul>li>a {
+    padding: 5px 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+nav>ul>li>a:hover,
+nav>ul>li>a:focus{
+    background-color: #502c73;
+    border-radius: 10pt;
+}
+
+aside {
+    border-radius: 10pt;
+    background-color: #502c73;
+    width: 25%; 
+    padding-left:0;
+    margin-top: 1em; 
+    float: right;
+    box-sizing: border-box; 
+}
+.logo-container{
+    border-top-left-radius: 10pt;
+    border-top-right-radius: 10pt;
+    background-color: white; 
+    padding: 10px; 
+    margin-bottom: 20px; 
+}
+
+.logo>img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+aside>ul{
+    list-style: none;
+    text-align: left;
+    padding: 0;
+    margin: 0 auto;
+    width: 35%;
+}
+aside>ul>li{
+    border: 0.2ex solid grey;
+    padding: 0;
+    background-color: #9676b7;
+    margin: .5em;
+    width: 100%;
+    text-align: center;
+    border-radius: 10pt;
+}
+aside>ul>li>a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+aside>ul>li>a:hover,
+aside>ul>li>a:focus{
+    background-color:#502c73;
+    border-radius: 10pt;
+}
+aside>h3>a{
+    margin-left: 10px;
+    color: white;
+    text-decoration: none;
+}
+aside>p{
+    color: white;
+    margin-left: 10px;
+}
+.pick{
+    margin: 0 auto;
+    text-align: center;
+}
+.pick>img{
+    margin-left: 1em;
+    
+}
+body{
+    background-color: #9676b7;
+}
+
+.user{
+    border-radius: 10px;
+    margin-bottom: 1ex;
+    background-color: gainsboro;
+}
+
+.user_reviews{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.user_review{
+    width: 30%;
+}
+.user_review a {
+    text-decoration: none;
+    color: white;
+}
+.main-content{ 
+    width: 73%; 
+    margin-right: 2%;
+    float: left;
+    text-align: center;
+    margin: 0 auto;
+}
+.miashs{
+    
+    text-decoration: none;
+}
+.miashs a{
+    color: black;
+    text-decoration: none;
+}
+
+
+figure img {
+    width: 200px;  
+    height: 200px; 
+
+    border-radius: 50%; 
+
+    object-fit: cover; 
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.source{
+    background-color: gainsboro;
+    border-radius: 10px;
+    width: 40%;
+}
+.source ul {
+    list-style: none;
+}
+
+
+
+
+
+
+body {
+    background-color: #8E7CC3 !important; 
+    color: white !important;
+}
+
+.custom-card {
+    background-color: transparent !important; 
+    border: 3px solid #FFD700 !important; 
+    border-radius: 10px;
+    margin-bottom: 20px;
+    height: 100%; 
+}
+
+.custom-card h3 {
+    background-color: #0d6efd; 
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 0;
+}
+
+.custom-card blockquote {
+    font-size: 1.1em;
+    font-style: italic;
+    padding: 10px;
+}
+
+.list-group-item-custom {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanc un peu transparent */
+    color: black;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 2px 0;
+    cursor: pointer;
+    list-style: none;
+    transition: all 0.3s;
+}
+
+.list-group-item-custom:hover {
+    background-color: white;
+    transform: scale(1.02);
+}
+
+.selectionne {
+    background-color: #4a2c5a !important; 
+    color: white !important;
+    border-color: white !important;
+    font-weight: bold;
+}
+
+.vrai {
+    background-color: #198754 !important; 
+    color: white !important;
+}
+.faux {
+    background-color: #dc3545 !important; 
+    color: white !important;
+}
+
+#btn-validation {
+    background-color: #4a2c5a;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+#btn-validation:hover {
+    background-color: white;
+    color: #4a2c5a;
+}
